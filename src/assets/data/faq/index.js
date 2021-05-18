@@ -6,7 +6,7 @@ export default {
         items: [
             {
                 title: "What is 1Billion Token?",
-                body: "1Billion is BEC-20 token that aims to feed 1 billion people. Our mission is to make sure that nobody in the world goes hungry and everyone that invests earns passive income."
+                body: "1Billion is BEP-20 token that aims to feed 1 billion people. Our mission is to make sure that nobody in the world goes hungry and everyone that invests earns passive income."
             },
             {
                 title: "How can I purchase?",

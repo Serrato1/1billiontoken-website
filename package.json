@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "export": "next build && next export",
-    "build": "npm run export",
     "start": "next start",
+    "now-build": "next build && next export -o dist",
     "firebase-dev": "npm run dev:client & npm run dev:server",
     "firebase-dev:client": "next src/client",
     "firebase-dev:server": "babel src/server --out-dir dist/server --source-maps --watch",
@@ -20,8 +19,7 @@
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
-    "imagemin-optipng": "^8.0.0",
-    "next": "^10.2.0",
+    "next": "9.3.2",
     "next-compose-plugins": "^2.2.0",
     "next-optimized-images": "^2.5.7",
     "prop-types": "^15.7.2",
