@@ -261,8 +261,8 @@ const BannerTwo = () => {
           <Col className="lg-6 md-12 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                The Token That<br/>
-                Pays You To HODL
+                <Box>The Token That</Box>
+                <Box>Pays You To HODL</Box>
               </Heading>
               <Text as="span" className="description">
                 If you see an opportunity, then take a risk. Join 1Billion
