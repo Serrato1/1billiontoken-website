@@ -6,7 +6,7 @@ export default {
         items: [
             {
                 title: "What is 1Billion Token?",
-                body: "1Billion is BEP-20 token that aims to feed 1 billion people. Our mission is to make sure that nobody in the world goes hungry and everyone that invests earns passive income."
+                body: "1Billion is BEP-20 token that aims to put money in your wallet. Our mission is to give everyone an equal opportunity at passive income."
             },
             {
                 title: "How can I purchase?",
@@ -14,7 +14,7 @@ export default {
             },
             {
                 title: "Is this is a Scam?",
-                body: "No this is not a scam. You can look up our linkedin profiles and we keep our project as transparent as possible on our social channels."
+                body: "We can assure you that this is not a scam. If you are feeling skeptical, feel free to head over to our founder's linkedin profiles as we try to keep our project as transparent as possible. Dont forget to checkout our amazing community as well on our social channels."
             },
         ] 
     },
@@ -23,7 +23,7 @@ export default {
         items: [
             {
                 title: "Is this is a Scam?",
-                body: "No this is not a scam. You can look up our linkedin profiles and we keep our project as transparent as possible on our social channels."
+                body: "We can assure you that this is not a scam. If you are feeling skeptical, feel free to head over to our founder's linkedin profiles as we try to keep our project as transparent as possible. Dont forget to checkout our amazing community as well on our social channels."
             },
         ] 
     },
@@ -32,7 +32,7 @@ export default {
         items: [
             {
                 title: "How can I purchase?",
-                body: "To purchase our coin, follow this link"
+                body: "To purchase our coin, follow the purchase guide."
             },
         ] 
     },

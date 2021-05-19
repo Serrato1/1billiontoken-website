@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <ThemeProvider theme={theme}>
       <Head>
-      <title>1BillionToken | Feed the World</title>
+      <title>1BillionToken | To the Moon</title>
         <meta name="Description" content="React next landing page" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />

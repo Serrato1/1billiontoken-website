@@ -39,13 +39,15 @@ const About = () => {
                                         </Heading>
                                     </SectionBackground>
                                     
-                                    <Text>We are a token that distributes money to its holders and donates it to feed the world.</Text>
+                                    <Text>We are a token that distributes money to its holders and make you profit.<br/><b>For Each Transaction:</b> </Text>
+                                    {/* <Text>For Each Transaction</Text> */}
+
                                 </SectionTitle>  
 
                                 <Box className="about-list">
-                                    <Text as="span">5% Distributed to Community.</Text>
-                                    <Text as="span">3% added to the liquidity pool</Text>
-                                    <Text as="span">2% burned</Text>
+                                    <Text as="span">8% is Redistributed to Holders.</Text>
+                                    <Text as="span">2% is Added to the Liquidity Pool</Text>
+                                    <Text as="span">2% is burned Forever</Text>
                                 </Box>
 
                                 <Box className="about-btn-wrapper">

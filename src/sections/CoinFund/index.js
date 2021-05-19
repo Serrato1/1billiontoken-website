@@ -41,13 +41,13 @@ const CoinFund = () => {
               <SectionTitle>
                 <SectionBackground>
                   <Heading>
-                    Feed a Billion People.<br/> One Token at a Time
+                    You Buy<br/>You Earn, That Simple.
                   </Heading>
                 </SectionBackground>
                 <Text>
-                  - The only token with real-world use cases.<br/>
-                  - Long term holders will earn tokens passively<br/>
-                  - If you see someone who looks hungry, you can give them a 1BillionToken
+                  - Highest Redistribution Percentage on the market  <br/>
+                  - Passively Earn Coins By Holding<br/>
+                  - Anti Whale Algorithm (see source code)
                 </Text>
               </SectionTitle>
 

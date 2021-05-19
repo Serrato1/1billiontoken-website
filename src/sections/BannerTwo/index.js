@@ -261,25 +261,25 @@ const BannerTwo = () => {
           <Col className="lg-6 md-12 xs-12">
             <Box className="banner-content"> 
               <Heading>
-                The Token that<br/>
-                Feeds the World
+                The Token That<br/>
+                Pays You To HODL
               </Heading>
               <Text as="span" className="description">
-                We aim to feed a Billion People, and make you profit.
+                If you see an opportunity, then take a risk. Join 1Billion
               </Text>
 
               <Box className="coin-info">
                 <Box>
                   <Image src={keyIcon} alt="crypto banner icon" />
-                  <Text>Safety</Text>
+                  <Text>Anti-Rug</Text>
                 </Box>
                 <Box>
                   <Image src={watchIcon} alt="crypto banner icon" />
-                  <Text>Passive Income</Text>
+                  <Text>Anti-Whale</Text>
                 </Box>
                 <Box>
                   <Image src={heartIcon} alt="crypto banner icon" />
-                  <Text>Community</Text>
+                  <Text>High Returns</Text>
                 </Box>
               </Box>
 
