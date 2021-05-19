@@ -19,7 +19,7 @@ import CoinFundWrapper from "./coinFund.style";
 
 const CoinFund = () => {
   const settings = { 
-    count: 5432560,
+    count: 400000,
     showTitle: true,
     size: 60,
     labelSize: 14,
@@ -60,14 +60,14 @@ const CoinFund = () => {
           </Col>
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text> Last moment to grab the token </Text>
+              <Text> Presale Coming Soon</Text>
               <CountdownTimer {...settings} />
             </Box>
             <Box className="progressbar-wrapper">
               <Box className="progressbar">
-                <Text as="span">$5,097</Text>
+                <Text as="span">$0</Text>
               </Box>
-              <Text as="span">$11,931</Text>
+              <Text as="span">$1,000,000</Text>
             </Box>
 
             <Box className="payment-getway">

@@ -9,8 +9,7 @@ import Text from "reusecore/Text";
 import Image from "reusecore/Image";
 import { List, ListItem } from "reusecore/List";
 import Subscribe from "sections/Subscribe";
-
-import cryptikFooterLogo from "assets/images/logo-white.png";
+import logo from "assets/images/logo/billion_logo.svg";
 import data from "assets/data/footer";
 import FooterWrapper from "./footer.style";
 
@@ -21,79 +20,78 @@ const Footer = () => {
         <Subscribe />
         <Container>
           <Row>
-            <Col className="lg-3 sm-6">
+            <Col className="lg-4 sm-6">
               <Box className="footer-widgets company-desc">
-                <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
+                <Image src={logo} alt="cryptik footer logo" />
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  The best things in life aren't free.
                 </Text>
 
                 <Box className="contact-info">
                   <Link href="#">
                     <a>
                       {" "}
-                      <FaPhoneAlt /> contact@cryptik.com{" "}
+                      <FaEnvelope />1billiontoken@gmail.com{" "}
                     </a>
                   </Link>
                   <Link href="#">
                     <a>
                       {" "}
-                      <FaEnvelope /> +88 12345 697858{" "}
+                      <FaPhoneAlt /> coming soon..{" "}
                     </a>
                   </Link>
                 </Box>
               </Box>
             </Col>
-            <Col className="lg-3 sm-6">
+            <Col className="lg-4 sm-6">
               <Box className="footer-widgets">
-                <Heading as="h2">Service</Heading>
+                <Heading as="h2">Community</Heading>
                 <List>
                   <ListItem>
-                    <Link href="#">
-                      <a>Web Design</a>
+                    <Link href="https://www.facebook.com/juan.bill.946/">
+                      <a>Facebook</a>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link href="#">
-                      <a>Web Development</a>
+                    <Link href="https://t.me/x1billion">
+                      <a>Telegram</a>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link href="#">
-                      <a>UXUI Design</a>
+                    <Link href="https://instagram.com/1billiontoken">
+                      <a>Instagram</a>
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link href="#">
-                      <a>Graphics Design</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Software development</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
+                    <Link href="https://twitter.com/1billiontoken">
+                      <a>Twitter</a>
                     </Link>
                   </ListItem>
                 </List>
               </Box>
             </Col>
-            <Col className="lg-3 sm-6">
+            <Col className="lg-4 sm-6">
               <Box className="footer-widgets">
-                <Heading as="h2">About Us</Heading>
+                <Heading as="h2">Resources</Heading>
                 <List>
                   <ListItem>
                     <Link href="#">
-                      <a>About Us</a>
+                      <a>Price</a>
                     </Link>
                   </ListItem>
                   <ListItem>
                     <Link href="#">
-                      <a>Work Portfolio</a>
+                      <a>Token</a>
+                    </Link>
+                  </ListItem>
+                  <ListItem>
+                    <Link href="#">
+                      <a>About</a>
+                    </Link>
+                  </ListItem>
+                  <ListItem>
+                    <Link href="#">
+                      <a>FAQ</a>
                     </Link>
                   </ListItem>
                   <ListItem>
@@ -103,28 +101,10 @@ const Footer = () => {
                   </ListItem>
                   <ListItem>
                     <Link href="#">
-                      <a>Plan & Pricing</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Content</a>
-                    </Link>
-                  </ListItem>
-                  <ListItem>
-                    <Link href="#">
-                      <a>Company News</a>
+                      <a>WhitePaper</a>
                     </Link>
                   </ListItem>
                 </List>
-              </Box>
-            </Col>
-            <Col className="lg-3 sm-6">
-              <Box className="footer-widgets address">
-                <Heading as="h2">Our Address</Heading>
-                <Text>
-                  1370 Roosevelt Street, Little York City, New Jersey 08834
-                </Text>
               </Box>
             </Col>
           </Row>
@@ -139,11 +119,11 @@ const Footer = () => {
               </Box>
 
               <Box className="copyright-text">
-                <Text>&copy; Cryptik | All right rserved 2020</Text>
+                <Text>&copy; 1BillionToken | All right rserved 2021</Text>
                 <Text as="span">
                   Designed By{" "}
                   <Link href="#">
-                    <a>Devscorn</a>
+                    <a>SerratoTech</a>
                   </Link>
                 </Text>
               </Box>

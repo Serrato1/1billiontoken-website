@@ -16,6 +16,11 @@ const Data = {
       offset: "-100"
     },
     {
+      name: "Socials",
+      path: "awards",
+      offset: "-250"
+    },
+    {
       name: "FAQ",
       path: "faq",
       offset: "-60"

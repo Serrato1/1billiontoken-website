@@ -8,22 +8,22 @@ export default {
     {
       icon: serviceIcon1,
       title: "Current Price",
-      body: ".000001",
+      body: "coming soon",
     },
     {
       icon: serviceIcon2,
       title: "Holders",
-      body: "0",
+      body: "coming soon",
     },
     {
       icon: serviceIcon3,
       title: "Supply",
-      body: "1,000,000,000,000",
+      body: "coming soon",
     },
     {
       icon: serviceIcon4,
       title: "Market Cap",
-      body: "$1,000,000 USD",
+      body: "coming soon",
     },
   ],
 };

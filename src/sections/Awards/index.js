@@ -13,7 +13,7 @@ import AwardsSectionWrapper from "./awards.style";
 const Awards = () => {
   return (
     <AwardsSectionWrapper>
-      <Box className="awards-section">
+      <Box id="awards" className="awards-section">
         <Container>
           <Row>
             <Col className="md-6">
@@ -23,7 +23,7 @@ const Awards = () => {
                     <Heading as="h1">Be a Part of 1 Billion</Heading>
                   </SectionBackground>
                   <Text>
-                    Join the community that is changing the world and <br/>
+                    Join the community that is changing the world and <br />
                     is headed to the moon!
                   </Text>
                 </SectionTitle>
@@ -37,15 +37,17 @@ const Awards = () => {
                     className={`awards-item ${index === 3 ? `active` : ""}`}
                     key={index}
                   >
-                    <Text as="span" className="award-icon">
-                      {" "}
-                      {item.icon}{" "}
-                    </Text>
-                    <Box className="counter-text">
-                      {" "}
-                      <Counter end={item.count} suffix="+" />{" "}
-                      <Text as="span">{item.body}</Text>{" "}
-                    </Box>
+                    <a href={item.link}>
+                      <Text as="span" className="award-icon">
+                        {" "}
+                        {item.icon}{" "}
+                      </Text>
+                      <Box className="counter-text">
+                        {" "}
+                        <Counter end={item.count} suffix="+" />{" "}
+                        <Text as="span">{item.body}</Text>{" "}
+                      </Box>
+                    </a>
                   </Box>
                 ))}
               </Box>
