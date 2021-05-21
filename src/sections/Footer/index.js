@@ -17,7 +17,7 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <Box className="footer-content-wrapper">
-        <Subscribe />
+        {/* <Subscribe /> */}
         <Container>
           <Row>
             <Col className="lg-4 sm-6">
@@ -100,7 +100,7 @@ const Footer = () => {
                     </Link>
                   </ListItem>
                   <ListItem>
-                    <Link href="#">
+                    <Link href="/white-paper">
                       <a>WhitePaper</a>
                     </Link>
                   </ListItem>

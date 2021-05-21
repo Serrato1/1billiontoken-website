@@ -52,7 +52,7 @@ const About = () => {
 
                                 <Box className="about-btn-wrapper">
                                     <Link href="#" ><a className="btn btn-fill"> <FaMoneyBill /> Buy Now</a></Link>
-                                    <Link href="#"><a className="btn"><FaToiletPaper /> White Paper</a></Link>
+                                    <Link href="/white-paper"><a className="btn"><FaToiletPaper /> White Paper</a></Link>
                                 </Box>
                             </Box>
                         </Col>
