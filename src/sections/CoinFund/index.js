@@ -7,6 +7,7 @@ import Box from "reusecore/Box";
 import Heading from "reusecore/Heading";
 import Text from "reusecore/Text";
 import { SectionTitle, SectionBackground } from "reusecore/SectionTitle";
+import Moment from 'react-moment';
 
 import {
   FaBitcoin,
@@ -17,9 +18,16 @@ import {
 
 import CoinFundWrapper from "./coinFund.style";
 
+var today = new Date();
+var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+var dateNow = new Date(date+' '+time);
+var dateFuture = new Date("05/25/2021 12:00:00");
+let diffInMilliSeconds = Math.abs(dateFuture - dateNow) / 1000;
 const CoinFund = () => {
+
   const settings = { 
-    count: 36600,
+    count: diffInMilliSeconds,
     showTitle: true,
     size: 60,
     labelSize: 14,
@@ -60,7 +68,7 @@ const CoinFund = () => {
           </Col>
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text> Presale Coming Soon</Text>
+              <Text> Fair Launch Coming Soon</Text>
               <CountdownTimer {...settings} />
             </Box>
             <Box className="progressbar-wrapper">
