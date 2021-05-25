@@ -19,7 +19,7 @@ import CoinFundWrapper from "./coinFund.style";
 
 const CoinFund = () => {
   const settings = { 
-    count: 36000,
+    count: 36600,
     showTitle: true,
     size: 60,
     labelSize: 14,
