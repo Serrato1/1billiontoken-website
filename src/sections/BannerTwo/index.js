@@ -285,7 +285,7 @@ const BannerTwo = () => {
 
               <Box className="banner-btn header-button-container">
                 <Link href="#">
-                  <a className="btn btn-fill"> Buy Now!</a>
+                  <a className="btn btn-fill" onClick={()=>{navigator.clipboard.writeText('0x34d74a40b32def4c428e567608c36ed774e801c1'); alert("Copied '0x34d74a40b32def4c428e567608c36ed774e801c1' to clipboard")}}> Copy Address!</a>
                 </Link> 
                 <Link href="https://t.me/onebilliontoken" >
                   <a href="https://t.me/onebilliontoken" className="btn btn-fill tg-button">Join Telegram!</a>
