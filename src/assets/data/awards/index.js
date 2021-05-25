@@ -5,7 +5,7 @@ export default {
     {
       icon: <FaTelegram />,
       count: 3,
-      link: 'https://t.me/x1billion',
+      link: 'https://t.me/onebilliontoken',
       body: "Telegram",
     },
     {

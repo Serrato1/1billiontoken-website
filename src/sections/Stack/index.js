@@ -19,10 +19,9 @@ const Stack = () => {
           <Row>
             <Col className="offset-lg-3 offset-md-1 lg-6 md-10  sm-12">
               <SectionTitle>
-                <Heading> Technology we use</Heading>
+                <Heading>Team</Heading>
                 <Text>
-                  Attention in when in just something bread not hundred well,
-                  muff value emerge on the known officers.
+                  Meet the talent behind 1BillionToken.
                 </Text>
               </SectionTitle>
             </Col>

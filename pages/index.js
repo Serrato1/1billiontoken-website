@@ -55,7 +55,7 @@ const Home = () => {
       {/* <Wallet /> */}
       {/* <Statistics /> */}
       <Faq />
-      {/* <Stack /> */}
+      <Stack />
       <Footer />
     </ThemeProvider>
   );

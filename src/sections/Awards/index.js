@@ -33,11 +33,11 @@ const Awards = () => {
             <Col className="md-6 awards-col">
               <Box className="awards-item-wrapper">
                 {data.awards.map((item, index) => (
+                  <a href={item.link}>
                   <Box
                     className={`awards-item ${index === 3 ? `active` : ""}`}
                     key={index}
                   >
-                    <a href={item.link}>
                       <Text as="span" className="award-icon">
                         {" "}
                         {item.icon}{" "}
@@ -47,8 +47,8 @@ const Awards = () => {
                         <Counter end={item.count} suffix="+" />{" "}
                         <Text as="span">{item.body}</Text>{" "}
                       </Box>
-                    </a>
                   </Box>
+                  </a>
                 ))}
               </Box>
             </Col>
