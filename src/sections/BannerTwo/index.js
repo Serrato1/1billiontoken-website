@@ -283,9 +283,12 @@ const BannerTwo = () => {
                 </Box>
               </Box>
 
-              <Box className="banner-btn">
+              <Box className="banner-btn header-button-container">
                 <Link href="#">
                   <a className="btn btn-fill"> Buy Now!</a>
+                </Link> 
+                <Link href="https://t.me/onebilliontoken" >
+                  <a href="https://t.me/onebilliontoken" className="btn btn-fill tg-button">Join Telegram!</a>
                 </Link> 
             </Box>
             </Box>

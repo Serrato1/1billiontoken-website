@@ -11,6 +11,16 @@ const BannerWrapper = styled.div`
     top: -12%;
     width: 40%;
   }
+  .tg-button{
+    margin-left:20px;
+  }
+
+  .header-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
 
   .section__particle {
     position: absolute;
