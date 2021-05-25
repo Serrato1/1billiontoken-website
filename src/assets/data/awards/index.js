@@ -4,25 +4,25 @@ export default {
   awards: [
     {
       icon: <FaTelegram />,
-      count: 3,
+      count: 200,
       link: 'https://t.me/onebilliontoken',
       body: "Telegram",
     },
     {
       icon: <FaTwitter />,
-      count: 5,
+      count: 70,
       link: 'https://twitter.com/1billiontoken',
       body: "Twitter",
     },
     {
       icon: <FaInstagram />,
-      count: 20,
+      count: 40,
       link: 'https://instagram.com/1billiontoken',
       body: "Instagram",
     },
     {
       icon: <FaFacebook />,
-      count: 1,
+      count: 20,
       link: 'https://www.facebook.com/juan.bill.946/',
       body: "Facebook",
     },
