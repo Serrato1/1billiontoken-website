@@ -40,7 +40,7 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </li>
       ))}
       <li>
-        <button className="nav__button">
+        <button className="nav__button" href="">
           Buy Now!
         </button>
       </li>
