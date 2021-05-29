@@ -59,9 +59,14 @@ const CoinFund = () => {
                 </Text>
               </SectionTitle>
 
-              <Box className="btn-wrapper">
+
+              <Box className="btn-wrapper header-button-container">
                 <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x34d74a40b32def4c428e567608c36ed774e801c1">
                   <a className="btn btn-fill">Buy Token</a>
+                </Link>
+
+                <Link href="https://charts.bogged.finance/?token=0x34d74a40b32Def4C428E567608c36ed774E801c1">
+                  <a style={{marginLeft: 20}}className="btn btn-fill">Price Chart</a>
                 </Link>
               </Box>
             </Box>
