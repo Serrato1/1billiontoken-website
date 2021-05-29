@@ -262,6 +262,10 @@ const BannerWrapper = styled.div`
           display: none;
         }
       }
+
+    }
+    .hero-side-image{
+      margin-top: 30px;
     }
     .section__particle{
       &.bottom-right{
