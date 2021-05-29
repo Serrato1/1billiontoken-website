@@ -24,8 +24,9 @@ import particleUnderLogo from "assets/images/particles/banner/particle-under-log
 import prticleTopRight from "assets/images/particles/banner/prticle-top-right.png";
 import particleBottomLeft from "assets/images/particles/banner/particle-bottom-left.png";
 import particleBottomRight from "assets/images/particles/banner/particle-bottom-right.png";
+import pancakeSwapInstructional from "assets/images/ps_instruction.svg";
 
-import {FaGithub, FaMoneyBill} from 'react-icons/fa'
+import {FaGithub, FaMoneyBill} from 'react-icons/fa';
 
 import keyIcon from 'assets/images/banners/banner-two/cryptik-banner-key-icon.svg';
 import watchIcon from 'assets/images/banners/banner-two/cryptik-banner-watch-icon.svg';
@@ -292,6 +293,9 @@ const BannerTwo = () => {
                 </Link> 
             </Box>
             </Box>
+          </Col>
+          <Col className="lg-6 md-12 xs-12">
+            <img className="hero-side-image" src={pancakeSwapInstructional}></img>
           </Col>
           {/* <CoinFundWrapper>
           <Col className="lg-6 md-12 countdown-wrap" style>

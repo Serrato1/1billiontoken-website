@@ -14,7 +14,9 @@ const BannerWrapper = styled.div`
   .tg-button{
     margin-left:20px;
   }
-
+  .hero-side-image{
+    margin-top: -60px;
+  }
   .header-button-container{
     display: flex;
     flex-direction: row;

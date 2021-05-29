@@ -68,15 +68,15 @@ const CoinFund = () => {
           </Col>
           <Col className="lg-6 md-12 countdown-wrap">
             <Box className="countdown-wrapper">
-              <Text> Fair Launch Coming Soon</Text>
               {/* <CountdownTimer {...settings} /> */}
               <div class="powr-countdown-timer" id="602f9b75_1621965772"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
             </Box>
+            <Text style={{textAlign:'center'}}>Market Cap</Text>
             <Box className="progressbar-wrapper">
               <Box className="progressbar">
-                <Text as="span">$0</Text>
+                <Text as="span">$150,000</Text>
               </Box>
-              <Text as="span">$1,000,000</Text>
+              <Text as="span">$1,000,000,000</Text>
             </Box>
 
             <Box className="payment-getway">

@@ -49,7 +49,7 @@ const CoinFundWrapper = styled.div`
 
     .progressbar {
       position: relative;
-      width: 60%;
+      width: 10%;
       height: 30px;
       border-radius: 20px;
       background: rgb(35, 42, 213);
