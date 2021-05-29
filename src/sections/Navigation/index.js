@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import { Container } from "reusecore/Layout";
-import logo from "assets/images/logo/billion_logo.svg";
+import logo from "assets/images/logo/_billion_logo.svg";
 
 import Data from "./utility/data.js";
 import ScrollspyMenu from "./utility/ScrollspyMenu";

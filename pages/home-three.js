@@ -28,6 +28,7 @@ const Home = () => {
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
+      
 
       <GlobalStyle />
       <Navigation />

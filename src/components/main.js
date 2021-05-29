@@ -4,7 +4,7 @@ import FavIcon from "assets/images/fav-icon.png";
 
 const Main = ({
   children,
-  title = "Cryptik | Next gentrations react next landing page",
+  title = "1BillionToken | The Token That Feeds Your Wallet",
 }) => {
   return (
     <React.Fragment>

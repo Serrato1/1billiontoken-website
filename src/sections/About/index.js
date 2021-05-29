@@ -51,7 +51,7 @@ const About = () => {
                                 </Box>
 
                                 <Box className="about-btn-wrapper">
-                                    <Link href="#" ><a className="btn btn-fill"> <FaMoneyBill /> Buy Now</a></Link>
+                                    <Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x34d74a40b32def4c428e567608c36ed774e801c1" ><a className="btn btn-fill"> <FaMoneyBill /> Buy Now</a></Link>
                                     <Link href="/white-paper"><a className="btn"><FaToiletPaper /> White Paper</a></Link>
                                 </Box>
                             </Box>

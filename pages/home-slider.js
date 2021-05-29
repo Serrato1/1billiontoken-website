@@ -24,7 +24,7 @@ const Home = () => {
     <ThemeProvider theme={theme}>
       <Head>
       <title>1Billion | To the Moon</title>
-        <meta name="Description" content="React next landing page" />
+        <meta name="Description" content="The Token That Feeds Your Wallet" />
         <meta name="theme-color" content="#280D57" />
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
         <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 

@@ -30,6 +30,7 @@ const Home = () => {
         <link rel="shortcut icon" type="image/x-icon" href={FavIcon} />
       </Head>
       
+      
       <GlobalStyle />
       <Navigation />
       <Banner />

@@ -40,7 +40,9 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
         </li>
       ))}
       <li>
-        <button className="nav__button" href="">
+        <button className="nav__button" onClick={()=>{
+          window.location.href = "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x34d74a40b32def4c428e567608c36ed774e801c1";
+        }}>
           Buy Now!
         </button>
       </li>
