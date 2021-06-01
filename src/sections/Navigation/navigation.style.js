@@ -128,8 +128,8 @@ const NavigationWrap =  styled.header`
     transition: all 0.8s cubic-bezier(0.3, 0.8, 0.2, 1) 0s;
     img{
       width: 200px;
-      -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
-      filter: invert(100%);
+      // -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
+      // filter: invert(100%);
     }
   }
   &.scrolled{ 
